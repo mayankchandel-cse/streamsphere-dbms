@@ -1,14 +1,11 @@
-# StreamSphere — DBMS-ONLY Project
+# StreamSphere — DBMS Project
 
-A college-level (B.Tech CSE) database project for a Netflix-style
-entertainment platform. **MySQL 8 only — no Java, no Swing, no JDBC,
-no ADSA code, no application code at all.** Everything is done in SQL:
+A college-level  database project for a Netflix-style
+entertainment platform. Everything is done in SQL:
 schema, sample data, queries, views, procedures, triggers, transactions
 and security.
 
-If you want the full Java + Swing version of this project, it lives in
-`~/workspace/streamsphere/` — this folder is the standalone DBMS cut
-of the same database.
+
 
 ## Scope (DBMS only)
 
@@ -32,7 +29,7 @@ of the same database.
 | MySQL Workbench | 8.x (or the `mysql` command-line client) |
 | OS | Windows / macOS / Linux |
 
-No JDK, no IDE, no JAR files, no other software is needed.
+
 
 ## How to run — in this order
 
