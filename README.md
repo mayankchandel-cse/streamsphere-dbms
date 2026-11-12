@@ -124,17 +124,3 @@ rows on purpose, and file 02's `Watch_History` INSERT has no UNIQUE
 key, so re-running file 02 adds 3 more history rows each time — that
 is correct behaviour for a history log, not a bug.
 
-## Viva tips
-
-1. Start with the ER diagram (`docs/06_design.md` §1) — entities,
-   then the M:N Users–Movies bridges.
-2. Show one query from each group in `03_queries.sql`: a JOIN (Q13),
-   a GROUP BY + HAVING (Q9), a correlated subquery (Q24).
-3. Demo the trigger live: insert a review, then `SELECT rating FROM
-   Movies` — the rating changes automatically.
-4. Demo a transaction: run Example B in file 04 and show the review
-   is kept but the rating row is rolled back to the SAVEPOINT.
-5. If asked "how would you improve it?", answer with the two honest
-   trade-offs in `docs/05_normalization.md` §5: `Movies.genre` as a
-   FK to Genres, and `cast_members` as its own table.
-6. Full answers: `docs/07_viva_qa.md`.
