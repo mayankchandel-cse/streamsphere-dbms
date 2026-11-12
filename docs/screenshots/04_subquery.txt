@@ -1,0 +1,22 @@
+mysql> USE streamsphere;
++------------------------+--------+
+| title                  | rating |
++------------------------+--------+
+| Galaxy Quest: Reborn   |    9.3 |
+| The Crown of Shadows   |    9.2 |
+| The Silent Horizon     |    9.1 |
+| Interstellar Echoes    |    9.0 |
+| The Last Samurai's Son |    8.9 |
+| Cyber Squad: Zero Day  |    8.9 |
+| Street Kings of Mumbai |    8.8 |
+| Monsoon Wedding Nights |    8.7 |
++------------------------+--------+
++----------+
+| genre    |
++----------+
+| Action   |
+| Drama    |
+| Horror   |
+| Sci-Fi   |
+| Thriller |
++----------+

@@ -1,0 +1,20 @@
+mysql> USE streamsphere;
++------------------------+------------+--------+
+| title                  | category   | rating |
++------------------------+------------+--------+
+| Galaxy Quest: Reborn   | Movies     |    9.3 |
+| The Crown of Shadows   | Web Series |    9.2 |
+| The Silent Horizon     | Movies     |    9.1 |
+| Interstellar Echoes    | Movies     |    9.0 |
+| The Last Samurai's Son | Movies     |    8.9 |
+| Cyber Squad: Zero Day  | Web Series |    8.9 |
++------------------------+------------+--------+
++--------------------+------------------------+
+| name               | title                  |
++--------------------+------------------------+
+| Demo User          | The Silent Horizon     |
+| Demo User          | Galaxy Quest: Reborn   |
+| Demo User          | Street Kings of Mumbai |
+| StreamSphere Admin | NULL                   |
+| Test User          | NULL                   |
++--------------------+------------------------+

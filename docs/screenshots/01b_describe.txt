@@ -1,0 +1,21 @@
++--------------+--------------+------+-----+---------+----------------+
+| Field        | Type         | Null | Key | Default | Extra          |
++--------------+--------------+------+-----+---------+----------------+
+| id           | int(11)      | NO   | PRI | NULL    | auto_increment |
+| title        | varchar(200) | NO   | MUL | NULL    |                |
+| genre        | varchar(50)  | NO   | MUL | NULL    |                |
+| language     | varchar(50)  | NO   | MUL | English |                |
+| release_year | int(11)      | NO   | MUL | NULL    |                |
+| rating       | decimal(3,1) | NO   | MUL | 0.0     |                |
+| duration_min | int(11)      | NO   |     | NULL    |                |
+| popularity   | int(11)      | NO   |     | 0       |                |
+| description  | text         | YES  |     | NULL    |                |
+| cast_members | varchar(500) | YES  |     | NULL    |                |
+| director     | varchar(100) | YES  |     | NULL    |                |
+| category_id  | int(11)      | NO   | MUL | 1       |                |
+| poster_path  | varchar(255) | YES  |     | NULL    |                |
+| type         | varchar(20)  | NO   |     | Movie   |                |
+| seasons      | int(11)      | YES  |     | NULL    |                |
+| episodes     | int(11)      | YES  |     | NULL    |                |
+| status       | varchar(20)  | YES  |     | NULL    |                |
++--------------+--------------+------+-----+---------+----------------+

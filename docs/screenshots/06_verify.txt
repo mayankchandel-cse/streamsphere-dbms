@@ -1,0 +1,33 @@
+mysql> USE streamsphere;
++------------------------+
+| Tables_in_streamsphere |
++------------------------+
+| Categories             |
+| Genres                 |
+| Movies                 |
+| Ratings                |
+| Reviews                |
+| Users                  |
+| Watch_History          |
+| Watchlist              |
+| WebSeries              |
+| vw_genre_stats         |
+| vw_top_rated           |
+| vw_user_watchlist      |
++------------------------+
++-------------+
+| reviews_now |
++-------------+
+|           6 |
++-------------+
++-----------+-----------+
+| User      | Host      |
++-----------+-----------+
+| app_admin | localhost |
+| app_user  | localhost |
++-----------+-----------+
++------+-------------+--------+------+------------------+------------------+---------+-------+------+----------------------------------------------------+
+| id   | select_type | table  | type | possible_keys    | key              | key_len | ref   | rows | Extra                                              |
++------+-------------+--------+------+------------------+------------------+---------+-------+------+----------------------------------------------------+
+|    1 | SIMPLE      | Movies | ref  | idx_movies_genre | idx_movies_genre | 202     | const | 3    | Using index condition; Using where; Using filesort |
++------+-------------+--------+------+------------------+------------------+---------+-------+------+----------------------------------------------------+

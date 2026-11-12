@@ -1,0 +1,22 @@
+mysql> USE streamsphere;
++-----+------------------------+--------+--------+
+| id  | title                  | genre  | rating |
++-----+------------------------+--------+--------+
+|   7 | Galaxy Quest: Reborn   | Sci-Fi |    9.3 |
+| 101 | The Crown of Shadows   | Drama  |    9.2 |
+|   1 | The Silent Horizon     | Sci-Fi |    9.1 |
+|  12 | Interstellar Echoes    | Sci-Fi |    9.0 |
+|   5 | The Last Samurai's Son | Action |    8.9 |
++-----+------------------------+--------+--------+
++----------+---+------------+
+| genre    | n | avg_rating |
++----------+---+------------+
+| Sci-Fi   | 3 |       9.13 |
+| Drama    | 2 |       8.95 |
+| Crime    | 1 |       8.80 |
+| Thriller | 2 |       8.65 |
+| Action   | 2 |       8.45 |
+| Comedy   | 3 |       8.20 |
+| Romance  | 1 |       8.10 |
+| Horror   | 1 |       7.60 |
++----------+---+------------+
